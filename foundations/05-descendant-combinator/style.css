@@ -1,0 +1,15 @@
+/* using class */
+.container {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    align-items: center;
+}
+
+/* using type */
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;  
+}

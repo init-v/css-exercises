@@ -1,0 +1,16 @@
+/* style css */
+
+button {
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    font-size: 28px;
+}
+.callout1 {
+    background-color: black;
+    color: white;
+}
+
+.callout2 {
+    background-color: yellow;
+
+    
+}
