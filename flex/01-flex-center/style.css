@@ -1,15 +1,16 @@
 .container {
-  background: dodgerblue;
+  background: teal;
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
 }
 
 .box {
-  background: palevioletred;
+  background: yellowgreen;
   font-weight: bold;
   text-align: center;
-  border: 6px solid maroon;
+  border: 6px solid white;
   width: 80px;
   height: 80px;
 }
+

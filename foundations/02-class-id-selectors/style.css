@@ -1,0 +1,23 @@
+/* style css */
+.odd {
+    background-color: rgb(255, 219, 251);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* third element */
+.newclass {
+    color: rgb(52, 52, 215);
+    font-size: 24px;
+}
+/* second element */
+#lucas {
+    font-size: 36px;
+    color:aqua;
+}
+
+
+#marcus {
+    background-color: rgb(181, 239, 180);
+    font-weight: bold;
+    font-size: 24px;
+}
