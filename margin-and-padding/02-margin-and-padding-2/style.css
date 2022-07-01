@@ -7,21 +7,158 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding:8px;
 }
 
 .title {
   background: #e3f4ff;
+  padding:8px;
+  margin: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  padding:8px;
+  margin: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding:8px;
+  margin: 8px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display:flex;
+  padding: 16px;
+  margin-left: 130px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+  padding: 8px;
+}
+
+.title {
+  background: #e3f4ff;
+  padding: 8px;
+}
+
+.content {
+  background: #e3f4ff;
+  padding: 8px;
+  
+}
+
+.button-container {
+  background: #e3f4ff;
+  display: block;
+  text-align: center;
+  padding: 8px;
+  margin: 8px;
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+  display: block;
+  margin-left: 140px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+  border: solid white 8px;
+  box-sizing: border-box;
+}
+
+
+
+.title {
+  background: #e3f4ff;
+  margin: 8px;
+  padding: 10px;
+}
+
+.content {
+  background: #e3f4ff;
+  margin: 8px;
+  padding: 10px;
+}
+
+.button-container {
+  background: #e3f4ff;
+  margin: 8px;
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+  display: block;
+  padding: 18px;
+  margin-left: 130px; 
+  border: solid white 8px;
+  margin-bottom: ;
+} */
