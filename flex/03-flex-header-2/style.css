@@ -12,6 +12,31 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border: solid red; */
+  justify-content:space-between;
+}
+
+.header .profile-image {
+  /* border: solid red; */
+
+}
+
+.logo_section {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  
+  
+}
+.notification_section {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
 }
 
 .profile-image {
@@ -27,22 +52,34 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  padding: 8px;
 }
 
 button {
   border: none;
+  /* margin-left: auto; */
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  display: flex;
+  /* border: solid red; */
 }
-
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  /* border: solid purple; */
+  
+  display: flex;
 }
 
 ul {
+  /* border: solid red; */
+  padding: 10px;
   list-style-type: none;
+  /* border: solid pink; */
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
 }
