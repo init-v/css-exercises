@@ -5,6 +5,23 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: solid red; */
+}
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
 }
 
 img {
@@ -16,6 +33,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  
+  padding: 8px;
 }
 
 input {
@@ -24,4 +43,94 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+
+/* selection of the menu tags */
+
+.header {
+  /* border: solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .right-links {
+  /* border: solid blue; */
+  display: flex;
+  
+}
+
+.header .right-links a {
+  margin: 10px;
+
+
+}
+
+
+
+.header .left-links {
+  /* border: solid lightseagreen; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header .left-links a {
+  /* border: solid greenyellow; */
+  margin: 10px;
+  
+
+
+
+}
+
+
+
+
+.content {
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* border: solid green;  */
+}
+
+
+
+
+.footer {
+  /* border: solid blueviolet; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #eee;
+
+  
+}
+
+
+
+.footer .right-links {
+  /* border: solid purple; */
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.footer .right-links a {
+  /* border: solid yellow; */
+  margin: 10px;
+
+}
+
+
+.footer .left-links {
+  display: flex;
+  flex-direction: row;
+}
+.footer .left-links a {
+  /* border: solid lightseagreen; */
+  margin: 10px;
 }
